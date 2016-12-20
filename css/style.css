@@ -54,7 +54,6 @@ input {
 .solution {
    display: flex;
    margin: 5% 10% 0 30%
-   /*position: relative;*/
 }
 
 button {
