@@ -44,7 +44,7 @@ p {
 
 input {
    height: 20px;
-   font-size: 1.2em;
+   font-size: 1.3em;
    text-align: center;
    margin: 2px;
    padding: 5px;
@@ -52,13 +52,13 @@ input {
 }
 
 .solution {
-   display: inline-block;
-   margin: 0 10% 0 30%
+   display: flex;
+   margin: 5% 10% 0 30%
    /*position: relative;*/
 }
 
 button {
-   background: linear-gradient(white, lightgray, white);
+  background: linear-gradient(white, lightgray, white);
   border: solid black 1px;
   box-shadow: 1px 1px 2px black;
   display: inline-block;
