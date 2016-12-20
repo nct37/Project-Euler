@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Project Euler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div class="heading">
+     <h1><a href="https://projecteuler.net/" target="_blank">Project Euler</a></h1>
+   </div>
+  <div class="background">
+       <h2 class="euler">Multiples of 3 and 5 up to 1000</h2>
+       <div class="problem">
+         <p><em><strong>Problem:</strong></em>  Find the sum of all the multiples of 3 or 5 below 1000.</p>
+       </div>
+       <div class="solution">
+           <input type="text" id="input" value="1000">
+           <button class="lg" onclick="multiples(document.getElementById('input').value)">Solve</button>
+       </div>
+          <div>
+            <h2 class="final" id="result1"></h2>
+          </div>
+  </div>
+
+  <div class="background">
+       <h2 class="euler">Even Fibonacci numbers</h2>
+       <div class="problem">
+          <p><em><strong>Problem:</strong></em>  Considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.</p>
+       </div>
+       <div class="solution">
+           <input type="text" id="input2" value="4000000">
+           <button class="lg" onclick="fiboCalc(document.getElementById('input2').value)">Solve</button>
+      </div>
+      <div>
+         <h2 class="final" id="result2"></h2>
+      </div>
+     
+  </div>
+   <div class="background">
+       <h2 class="euler">Largest prime factor</h2>
+       <div class="problem">
+          <p><em><strong>Problem:</strong></em> What is the largest prime factor of the number 600851475143?</p>
+       </div>
+       <div class="solution">
+           <input type="text" id="input3" value="600851475143">
+           <button class="lg" onclick="primes(document.getElementById('input3').value)">Solve</button> 
+      </div>
+      <div>
+         <h2 class="final" id="result3"></h2>
+      </div>
+     
+  </div>
+  
+</body>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

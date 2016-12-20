@@ -1,0 +1,91 @@
+*  {
+  /*border: 1px solid red;*/
+   word-wrap: break-word;
+}
+
+div.background {
+  margin: 2% 15% 0 15%;
+  background-color: lightgray;
+}
+
+h1 {
+   font-family: sans serif;
+   text-align: center;
+}
+
+h1 a {
+   color: black;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+a:hover {
+   color: purple;
+}
+
+h2 {
+  font-family: sans serif;
+  text-align: center;
+  padding: 2%;
+  background: linear-gradient(#95e5f9, white, #148caa);
+  box-shadow: 2px 2px 5px 3px gray;
+  width: auto;
+}
+
+p {
+  background-color: #f7f9a9;
+  font-size: 1.2em;
+  font-family: Helvetica, sans;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 2px 5px 3px gray;
+  padding: 8px;
+}
+
+input {
+   height: 20px;
+   font-size: 1.2em;
+   text-align: center;
+   margin: 2px;
+   padding: 5px;
+   width: 65%;
+}
+
+.solution {
+   display: inline-block;
+   margin: 0 10% 0 30%
+   /*position: relative;*/
+}
+
+button {
+   background: linear-gradient(white, lightgray, white);
+  border: solid black 1px;
+  box-shadow: 1px 1px 2px black;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 0 3% 20px;
+}
+
+button:hover {
+  background: linear-gradient(gray, white, gray);
+  box-shadow:  2px 2px 5px 3px gray;
+  color: red;
+  font: bold;
+  cursor: pointer;
+  transition-duration: 0.2s; 
+}
+
+.final {
+  color: red;
+  font-family: sans serif;
+  letter-spacing: 0.3em;
+  margin: 2% 15% 0 15%;
+  text-shadow: 1px -1px black;
+  }
+
+.lg {
+  height: 40px;
+  width: 70px;
+  border: none;
+  padding: 2px;
+}
